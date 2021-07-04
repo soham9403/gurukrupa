@@ -1,0 +1,75 @@
+.primary-theme{
+	background-color: #e68a00;
+	color: white;
+}
+.normal-theme{
+	background-color: white;
+	color: black;
+
+}
+.primary-offer-theme{
+	background: green;
+	color: white;
+}
+.primary-text{
+	color: #e68a00;
+}
+.secondary-text{
+	color: white;
+}
+.danger-theme{
+	background: red;
+	color: white;
+}
+.hover-theme{
+	color: black;
+	background: transparent;
+}
+.succeess-theme{
+	background: #00cc66;
+	color: white;
+}
+
+
+.hover-theme:hover{
+	background: #e68a00;
+	color: white;
+}
+.theme-border{
+	border: 3px solid #e68a00;
+}
+.theme-dashed-border{
+	border: 2px dashed #e68a00;
+}
+.hover-dark-theme{
+	background: #1f1f14;
+	color: white;
+}
+.hover-dark-theme:hover{
+	background: black;
+	color: white;
+}
+
+.hover-text-theme{
+	color: rgb(0,0,0,.7);
+}
+.hover-text-theme:hover{
+	color: #e68a00;
+}
+
+.swiper-pagination-bullet{
+	background: white;
+	opacity: 1;
+	box-shadow: 1px 1px 2px black;
+}
+.swiper-pagination-bullet-active{
+	background: #e68a00;
+}
+.swiper-button-next,
+.swiper-button-prev{
+	color: black;
+}
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable{
+	background: #e68a00 !important;
+	opacity: .8;
+}

@@ -1,0 +1,144 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	vertical-align: text-top;
+}
+body{
+	width: 100%;
+	overflow-x: hidden;
+}
+header
+{
+	z-index: 100;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	box-shadow: 1px 1px 10px black;
+	vertical-align: text-top;
+}
+header .info_box{
+	width: 100%;
+	padding: 5pX;
+	font-size: 15px;
+}
+.left_align{
+	display: inline-block;
+	text-align: left;
+	width: 49%;
+}
+.right_align{
+	display: inline-block;
+	letter-spacing: 1px;
+	text-align: right;
+	width: 49%;
+}
+
+header nav{
+	width: 100%;
+	height: 60px;
+	padding: 5px;	
+}
+header nav .header_image{
+	height: 50px;
+	padding: 0px;
+	float: left;
+	margin-left: 10px;
+	width: 60px;
+}
+header nav .header_image img{
+	width: 60px;
+	height: 50px;
+}
+
+header nav .bar-icon{
+	font-size: 25px;
+	display: none;
+}
+header nav .header_link_list{
+	display: block;
+	list-style-type: none;
+	margin-top: 2px;
+	float: right;
+	margin-right: 20px;
+	padding: 5px;
+}
+header nav .header_link_list a{
+	padding: 5px;
+	margin: 0px 3px;
+	text-decoration: none;
+}
+header nav .header_link_list a:active{
+	padding: 5px;
+	text-decoration: none;
+}
+header nav .header_link_list a li{
+	display: inline-block;
+	font-weight: bolder;
+	padding: 5px 15px;
+	border-radius: 20px;
+	vertical-align: text-top;
+	font-size: 20px;
+}
+header nav .header_link_list a li i{
+	display: inline-block;
+}
+.header_cart{
+	display: inline-block;
+	position: relative;
+}
+.header_cart span{
+	display: block;
+	padding: 1px 5px;
+	position: absolute;
+	top: -10px;
+	right: -15px;
+	border-radius: 100px;
+	width: 20px;
+	height: 20px;
+	font-size: 15px;
+	text-align: center;
+}
+
+@media only screen and (max-width: 740px){
+	.left_align{
+		display: block;
+		text-align: left;
+		width: 100%;
+	}
+	.right_align{
+		display: block;
+
+		text-align: left;
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 740px){
+	header nav .header_link_list a li{
+		display: block;
+		width: 100%;
+		border-radius: 2px;
+		box-shadow:1px 1px 1px black;
+	}
+	header nav .header_link_list{
+		
+		position: fixed;
+		top: 108px;
+		transition: all .5s;
+		left: -310px;
+		text-align: center;
+		max-width: 300px;
+		width: 80%;
+		box-shadow: 1px 1px 10px black;
+		height: 100vh;
+		z-index: -1;
+	}
+	header nav .bar-icon{
+		display: block;
+		float: right;
+		margin-right: 10px;
+		margin-top: 12px;
+	}
+}

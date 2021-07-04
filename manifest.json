@@ -1,0 +1,15 @@
+{
+  "short_name": "GURU Krupa",
+  "name": "Guru-Krupa E&S",
+  "icons": [
+    {
+      "src": "favicon.jpg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/jpg"
+    }
+  ],
+  "start_url": "http://localhost/gurukrupa/product",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
